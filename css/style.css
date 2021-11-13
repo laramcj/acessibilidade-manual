@@ -4,39 +4,38 @@
     --body-bg: #F1F1F1;
     --body-color: #000000;
     --tamfonte-bg: #f9f9f9;
-    --menup-bg: #0f1de7;
-    --header-bg: #580786;
+    --menup-bg: #f24405;
+    --header-bg: #f20505;
     --header-color: #f1f1f1;
     --box-bg: #fff;
-    --box-bs: #757575;
-    --bos-color: #000000;
+    --box-bs: #f27405;
+    --bos-color: #400104;
     --footer-color: #ffffff;
     }
        
-.dark-mode:root {
-    --body-bg: #000000;
-    --body-color: #FDFDFD;
-    --tamfonte-bg: #f9f9f9;
-    --menup-bg: #103A61;
-    --header-bg: #0A2237;
-    --header-color: #f1f1f1;
-    --box-bg: #0A2237;
-    --box-bs: #757575;
-    --box-color: #FDFDFD;
-    }
-
-.light-mode:root {
-    --body-bg: #F1F1F1;
-    --body-color: #000000;
-    --tamfonte-bg: #f9f9f9;
-    --menup-bg: #0E61AD;
-    --header-bg: #0D76D6;
-    --header-color: #f1f1f1;
-    --box-bg: #fff;
-    --box-bs: #757575;
-    --bos-color: #000000;
-    --footer-color: #ffffff;
-    }
+    .dark-mode:root {
+        --body-bg: #000000;
+        --body-color: #FDFDFD;
+        --tamfonte-bg: #f9f9f9;
+        --menup-bg: #f20505;
+        --header-bg: #8c0303;
+        --header-color: #f1f1f1;
+        --box-bg: #8c0303;
+        --box-bs: #f27405;
+        --box-color: #FDFDFD;
+        }
+        .light-mode:root {
+        --body-bg: #F1F1F1;
+        --body-color: #000000;
+        --tamfonte-bg: #f9f9f9;
+        --menup-bg: #f24405;
+        --header-bg: #f20505;
+        --header-color: #f1f1f1;
+        --box-bg: #fff;
+        --box-bs: #f27405;
+        --bos-color: #400104;
+        --footer-color: #ffffff;
+        }
 
 *{
     margin: 0;
@@ -171,6 +170,21 @@ a.contraste {
     font-size: 1.1em;
     font-weight: 400;
 }
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    }
 
 .box a{
     color: var(--body-color);
