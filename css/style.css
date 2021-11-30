@@ -1,41 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
-:root {
+root {
     --body-bg: #F1F1F1;
     --body-color: #000000;
     --tamfonte-bg: #f9f9f9;
-    --menup-bg: #f24405;
-    --header-bg: #f20505;
+    --menup-bg: #0E61AD;
+    --header-bg: #0D76D6;
     --header-color: #f1f1f1;
     --box-bg: #fff;
-    --box-bs: #f27405;
-    --bos-color: #400104;
+    --box-bs: #757575;
+    --bos-color: #000000;
     --footer-color: #ffffff;
     }
        
-    .dark-mode:root {
-        --body-bg: #000000;
-        --body-color: #FDFDFD;
-        --tamfonte-bg: #f9f9f9;
-        --menup-bg: #f20505;
-        --header-bg: #8c0303;
-        --header-color: #f1f1f1;
-        --box-bg: #8c0303;
-        --box-bs: #f27405;
-        --box-color: #FDFDFD;
-        }
-        .light-mode:root {
-        --body-bg: #F1F1F1;
-        --body-color: #000000;
-        --tamfonte-bg: #f9f9f9;
-        --menup-bg: #f24405;
-        --header-bg: #f20505;
-        --header-color: #f1f1f1;
-        --box-bg: #fff;
-        --box-bs: #f27405;
-        --bos-color: #400104;
-        --footer-color: #ffffff;
-        }
+.dark-mode:root {
+    --body-bg: #000000;
+    --body-color: #FDFDFD;
+    --tamfonte-bg: #f9f9f9;
+    --menup-bg: #103A61;
+    --header-bg: #0A2237;
+    --header-color: #f1f1f1;
+    --box-bg: #0A2237;
+    --box-bs: #757575;
+    --box-color: #FDFDFD;
+    }
+
+.light-mode:root {
+    --body-bg: #F1F1F1;
+    --body-color: #000000;
+    --tamfonte-bg: #f9f9f9;
+    --menup-bg: #0E61AD;
+    --header-bg: #0D76D6;
+    --header-color: #f1f1f1;
+    --box-bg: #fff;
+    --box-bs: #757575;
+    --bos-color: #000000;
+    --footer-color: #ffffff;
+    }
 
 *{
     margin: 0;
